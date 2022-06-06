@@ -1,0 +1,73 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    /*When the value is 0 you don't have to specify the unit*/
+    margin: 0;
+    text-align: center;
+}
+
+/*16px = 100% = 1em*/
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #E0EBE8;
+    padding-top: 100px;
+    position: relative;
+}
+
+.bottom-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row {
+    margin: 100px auto; 
+    text-align: left;
+    width: 50%;
+}
+
+.tools-img {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.laptop-img {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
