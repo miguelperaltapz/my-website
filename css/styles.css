@@ -1,4 +1,5 @@
 body {
+    color: #40514E;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.3rem;
     /*When the value is 0 you don't have to specify the unit*/
@@ -20,11 +21,19 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 20%;
+    margin: 100px auto;
 }
 
 p {
@@ -33,12 +42,28 @@ p {
 
 a {
     color: #11999E;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
 
 .top-container {
-    background-color: #E0EBE8;
+    background-color: #EAF6F6;
     padding-top: 100px;
     position: relative;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
 }
 
 .bottom-cloud {
@@ -71,3 +96,49 @@ a {
     width: 25%;
 }
 
+.profile {
+    margin: auto;
+    width: 40%;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    -webkit-box-shadow: 1px 1px 3px #658c8c;
+    -moz-box-shadow: 1px 1px 3px #658c8c;
+    box-shadow: 1px 1px 3px #658c8c;
+    font-family: 'Montserrat', sans-serif;
+    color: #EAF6F6;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.contact-me {
+    margin: 40px auto 60px;
+    width: 40%;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 10px 0;
+}
